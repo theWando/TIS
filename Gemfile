@@ -23,6 +23,7 @@ end
 gem 'bootstrap-sass'
 gem 'rails-i18n'
 gem 'haml', '~> 4.0.2'
+gem 'rails-i18n'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
