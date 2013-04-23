@@ -11,6 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap
+//= require bootstrap-alert
+//= require bootstrap-popover
+//= require bootstrap-dropdown
 //= require_tree .

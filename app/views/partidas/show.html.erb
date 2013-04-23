@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @partida.name %>
+</p>
+
+<p>
+  <b>Amount assigned:</b>
+  <%= @partida.amount_assigned %>
+</p>
+
+<p>
+  <b>Amount aviable:</b>
+  <%= @partida.amount_aviable %>
+</p>
+
+<p>
+  <b>Budget:</b>
+  <%= @partida.budget %>
+</p>
+
+
+<%= link_to 'Edit', edit_partida_path(@partida) %> |
+<%= link_to 'Back', partidas_path %>

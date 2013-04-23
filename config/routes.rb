@@ -1,4 +1,16 @@
 TIS::Application.routes.draw do
+  resources :expenses
+
+
+  resources :partidas
+
+
+  resources :budgets
+
+
+  resources :departments
+
+
   get "home/index"
 
   # The priority is based upon order of creation:

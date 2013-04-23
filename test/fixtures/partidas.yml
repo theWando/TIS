@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  amount_assigned: 9.99
+  amount_aviable: 9.99
+  budget: 
+
+two:
+  name: MyString
+  amount_assigned: 9.99
+  amount_aviable: 9.99
+  budget: 

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  amount: 9.99
+  starts_on: 2013-04-14
+  department: 
+
+two:
+  amount: 9.99
+  starts_on: 2013-04-14
+  department: 

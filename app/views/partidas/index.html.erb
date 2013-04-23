@@ -1,0 +1,29 @@
+<h1>Listing partidas</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Amount assigned</th>
+    <th>Amount aviable</th>
+    <th>Budget</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @partidas.each do |partida| %>
+  <tr>
+    <td><%= partida.name %></td>
+    <td><%= partida.amount_assigned %></td>
+    <td><%= partida.amount_aviable %></td>
+    <td><%= partida.budget %></td>
+    <td><%= link_to 'Show', partida %></td>
+    <td><%= link_to 'Edit', edit_partida_path(partida) %></td>
+    <td><%= link_to 'Destroy', partida, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Partida', new_partida_path %>
